@@ -1,0 +1,31 @@
+{
+  "name": "catan-engine",
+  "version": "0.0.1",
+  "description": "Game engine for Catan in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "tap": true,
+    "verbose": true
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0"
+  }
+}

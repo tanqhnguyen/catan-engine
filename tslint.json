@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "mocha-no-side-effect-code": false,
+    "missing-jsdoc": false,
+    "no-relative-imports": false,
+    "export-name": false,
+    "promise-function-async": false,
+    "no-void-expression": false,
+    "no-redundant-jsdoc": false,
+    "prefer-type-cast": false,
+    "no-unused-expression": false,
+    "no-any": false,
+    "no-reserved-keywords": false,
+    "completed-docs": false,
+    "object-literal-sort-keys": false,
+    "interface-over-type-literal": false,
+    "max-classes-per-file": false,
+    "typedef": false,
+    "no-console": false,
+    "no-empty": false,
+    "ordered-imports": false,
+    "member-ordering": false
+  }
+}
